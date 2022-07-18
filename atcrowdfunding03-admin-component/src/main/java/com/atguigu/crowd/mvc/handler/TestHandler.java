@@ -80,6 +80,8 @@ public class TestHandler {
     public String testSsm(ModelMap modelMap, HttpServletRequest request) {
 
         //System.out.println(10/0);
+        String a = null;
+        System.out.println(a.length());
 
         return "target";
     }
